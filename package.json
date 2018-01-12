@@ -1,0 +1,24 @@
+{
+  "name": "gdax-notifier",
+  "version": "1.0.0",
+  "description": "I have only tested this on Ubuntu on a server with mail correctly set up This depends on the gdax trading toolkit",
+  "main": "fill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codemerlin/GDAX-Notifier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codemerlin/GDAX-Notifier/issues"
+  },
+  "homepage": "https://github.com/codemerlin/GDAX-Notifier#readme",
+  "dependencies": {
+    "commander": "^2.13.0",
+    "gdax-trading-toolkit": "^0.2.2",
+    "sendmail": "^1.2.0"
+  }
+}
